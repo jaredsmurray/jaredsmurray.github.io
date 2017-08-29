@@ -1,0 +1,96 @@
+---
+layout: default
+title: Jared S. Murray, PhD
+about: passive
+cv: passive
+contact: passive
+software: active
+---
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          MixedDataImpute
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+      <p>MixedDataImpute is an R package for imputing missing multivariate continuous and categorical data, using the Bayesian nonparametric hierarchical model developed in
+      <a href="http://arxiv.org/abs/1410.0438">Murray and Reiter (2015)</a>
+</p>
+<p> The latest stable version is available from CRAN (“install.packages(MixedDataImpute)”). </p>
+      </div>
+    </div>
+  </div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne1">
+          bfa
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne1" class="panel-collapse collapse in">
+      <div class="panel-body">
+      <p>bfa is an R package for fitting Bayesian factor models (Gaussian, probit, mixed and semiparametric copula models) under a range of priors for the factor loadings. These include continuous and spike-and-slab shrinkage priors. MCMC is performed in compiled code, so model fitting is typically quite fast.
+</p>
+<p> The latest stable version is available from CRAN (“install.packages(‘bfa’)”). </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          MPTuner
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+<p>Here you can find the MPTuner software, an implementation of adaptive median polish algorithms for anomaly detection in sensor networks. The algorithms were developed by Prof. Ernst Linder at the <span style="text-decoration: underline"><a href="http://www.math.unh.edu/">University of New Hampshire&#8217;s Department of Mathematics and Statistics</a></span> as part of the 2007 SAMSI program on Environmental Sensor Networks. <span style="text-decoration: underline"><a href="http://www.mbl.edu/ecosystems/staff/cardon/">Dr. Zoe Cardon</a></span> at Woods Hole provided us with test data and insight into the ecological processes involved. I wrote the software during my senior year under the mentorship of Prof. Linder. For background on the technique you may refer to <span style="text-decoration: underline"><a href="http://www.samsi.info/content/median-polish-algorithms-automated-data-cleaning">this talk</a></span> by Prof. Linder.<br />
+The software is available as the original Python source or as a Windows executable. The scripts should run anywhere that Python and wxPython do. The binary is for Windows platforms only and has been tested in XP, Vista and Windows 7.</p>
+<h4>Installation:</h4>
+<p>Windows binary:</p>
+<ul>
+<li>Ensure that the <span style="text-decoration: underline"><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&amp;displaylang=en">Microsoft Visual C++ 2008 Redistributable Package</a></span> is installed.</li>
+<li>Download and extract <span style="text-decoration: underline"><a href="http://stat.duke.edu/~jsm38/resources/mpt-winbin.zip" rel="self">mpt-winbin.zip</a></span></li>
+</ul>
+<p>From source:</p>
+<ul>
+<li>MPTuner is a Python application. It has several dependencies which are listed below. It has been tested on these versions, but it should work on more recent versions as well.</li>
+</ul>
+<ul>
+<li><span style="text-decoration: underline"><a href="http://www.python.org/">Python 2.6.2</a></span></li>
+<li><span style="text-decoration: underline"><a href="http://numpy.scipy.org/">NumPy 1.3</a></span></li>
+<li><span style="text-decoration: underline"><a href="http://www.scipy.org/">SciPy 0.71</a></span></li>
+<li><span style="text-decoration: underline"><a href="http://www.wxpython.org/">wxPython 2.8.10.1</a></span> (Unicode)</li>
+<li><span style="text-decoration: underline"><a href="http://matplotlib.sourceforge.net/">Matplotlib 0.98.5.3</a></span></li>
+</ul>
+<ul>
+<li>Download and extract <span style="text-decoration: underline"><a href="http://stat.duke.edu/~jsm38/resources/mpt-source.zip" rel="self">mpt-source.zip</a></span></li>
+</ul>
+<h4>Running:</h4>
+<ul>
+<li>(optional) Edit the config.txt file as desired.</li>
+<li>Run &#8220;gui_app.exe&#8221; if you are using the Windows binary, or execute the &#8220;gui_app.py&#8221; script. At the command line you can specify a datafile to load with the &#8220;-d&#8221; flag (e.g.: python gui_app.py -d &#8220;datafile.csv&#8221;).</li>
+<li>Load the data (File &gt; Load data).</li>
+<li>(optional) Assign names to the factors identified in the data file (Data &gt; Show data import settings). You can save the factor definitions file once finished.</li>
+<li>(optional) Select factors to group the data by, e.g, treatments (Data &gt; Show group settings).</li>
+<li>The &#8220;Group&#8221; dropdown list will be populated with the nonempty groups. Select one, adjust the tuning parameters and push &#8220;Recalculate&#8221;. After running the polish for the various groups you can save the cleaned data (File &gt; Save data).</li>
+</ul>
+<h4>Known Issues:</h4>
+<ul>
+<li>I wrote MPTuner as an undergraduate project. I didn&#8217;t know any Python when I started; I was learning as I went. It shows in the code (although it’s fully functional!).</li>
+<li>MPTuner uses the <span style="text-decoration: underline"><a href="http://xoomer.virgilio.it/infinity77/main/freeware.html">EnhancedStatusBar</a></span> class graciously provided by Andrea Gavana. This provides the colored square when you click on a line in the plot window. On some platforms the colored square doesn&#8217;t appear.</li>
+<li>On (re)calcuating the median polish, you may see a DeprecationWarning indicating that scipy.stats.median is deprecated in favor of numpy.median. At present this doesn&#8217;t impact the functioning of MPTuner. This is an issue in the nanmedian function in SciPy using its own median function when it should be using NumPy&#8217;s. My understanding is that the change has been made in newer versions of SciPy.</li>
+</ul>
+<p><em>The data included here are derived from work supported by the National Science Foundation under Grant No. 0415938. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</em></p>
+      </div>
+    </div>
+  </div>
+</div>

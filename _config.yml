@@ -1,0 +1,4 @@
+name: Jared S. Murray, PhD
+markdown: redcarpet
+pygments: true
+markdown_ext:  markdown,mkd,mkdn,md
