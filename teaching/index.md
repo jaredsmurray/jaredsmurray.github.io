@@ -8,7 +8,7 @@ At the University of Texas at Austin:
 
 Fall 2017
 
-- [Statistics and Modeling (STA-371G, all sections)](sta371g_f17)
+- [Statistics and Modeling (STA-371G, all sections)](../sta371g_f17)
 
 At Carnegie Mellon University:
 
