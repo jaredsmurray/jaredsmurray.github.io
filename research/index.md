@@ -17,7 +17,7 @@ My current research interests are in developing flexible Bayesian multivariate m
 
 
 #### Publications:
-1. **Murray, J.S.** and Reiter, J.P. (2016+) [Multiple Imputation of Missing Categorical and Continuous Values via Bayesian Mixture Models with Local Dependence](http://www.tandfonline.com/doi/abs/10.1080/01621459.2016.1174132) Journal of the American Statistical Association 111(516), 1466–1479. (replaced "Hierarchically Coupled Mixture Models with Local Dependence, with Application to Imputing Mixed Data")
+1. **Murray, J.S.** and Reiter, J.P. (2016) [Multiple Imputation of Missing Categorical and Continuous Values via Bayesian Mixture Models with Local Dependence](http://www.tandfonline.com/doi/abs/10.1080/01621459.2016.1174132) Journal of the American Statistical Association 111(516), 1466–1479. (replaced "Hierarchically Coupled Mixture Models with Local Dependence, with Application to Imputing Mixed Data")
 1. **Murray, J. S.** (2016) [Probabilistic Record Linkage and Deduplication after Indexing, Blocking, and Filtering](http://repository.cmu.edu/jpc/vol7/iss1/2). Journal of Privacy and Confidentiality: Vol. 7: Iss. 1, Article 2. Example code [here](./files/fs-cquasi.R).
 1. Hahn, P.R., **J. S. Murray**, and I. Manolopoulou (2016) [A Bayesian Partial Identification Approach to Inferring the Prevalence of Accounting Misconduct](http://www.tandfonline.com/doi/abs/10.1080/01621459.2015.1084307?journalCode=uasa20). Journal of the American Statistical Association 111(513), 14–26.
 1. **Murray, J. S.**, D. B. Dunson, L. Carin, and J. E. Lucas (2013). [Bayesian Gaussian Copula Factor Models for Mixed Data](http://www.tandfonline.com/doi/abs/10.1080/01621459.2012.762328). Journal of the American Statistical Association 108(502), 656–665.
