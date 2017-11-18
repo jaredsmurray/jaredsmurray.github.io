@@ -11,7 +11,10 @@ research: active
 My current research interests are in developing flexible Bayesian multivariate models for heterogenous and structured data, with applications to multiple imputation for missing data, latent variable modeling and causal inference. I was recently awarded an NSF grant ["Improving Probabilistic Record Linkage and Subsequent Inference"](https://nsf.gov/awardsearch/showAward?AWD_ID=1631970&HistoricalAwards=false) to develop new methods for matching records across files in the absence of unique identifiers, and for making inference using the combined files.
 
 #### Submitted/Working Papers:
-1.  **Murray, J.S.**  [Log-Linear Bayesian Additive Regression Trees for Categorical and Count Responses](./files/log-linear.pdf) 
+1. McVeigh, B. S. and **J. S. Murray (2017)**. [Practical Bayesian Inference for Record Linkage](https://arxiv.org/abs/1710.10558).
+2. Hahn, P. R., **J. S. Murray**, and C. Carvalho (2017). [Bayesian regression tree models for causal inference: regularization, confounding, and heterogeneous effects](https://arxiv.org/abs/1706.09523)
+3.  **Murray, J.S.**  [Log-Linear Bayesian Additive Regression Trees for Categorical and Count Responses](https://arxiv.org/abs/1701.01503) 
+
 
 #### Publications:
 1. **Murray, J.S.** and Reiter, J.P. (2016+) [Multiple Imputation of Missing Categorical and Continuous Values via Bayesian Mixture Models with Local Dependence](http://www.tandfonline.com/doi/abs/10.1080/01621459.2016.1174132) Journal of the American Statistical Association 111(516), 1466–1479. (replaced "Hierarchically Coupled Mixture Models with Local Dependence, with Application to Imputing Mixed Data")
