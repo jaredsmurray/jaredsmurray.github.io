@@ -6,9 +6,14 @@ teaching: active
 
 At the University of Texas at Austin:
 
+Spring 2019
+
+- [Statistics and Modeling Honors (STA-371H)](../sta371h_s19)
+- [Statistics and Modeling (STA-371G)](../sta371g_s19)
+
 Fall 2017
 
-- [Statistics and Modeling (STA-371G, all sections)](../sta371g_f17)
+- Statistics and Modeling (STA-371G)
 
 At Carnegie Mellon University:
 
