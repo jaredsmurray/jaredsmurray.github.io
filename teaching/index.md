@@ -6,8 +6,12 @@ teaching: active
 
 At the University of Texas at Austin:
 
-Spring 2020
+Spring 2021
 - [Statistics and Modeling Honors (STA-371H)](../sta371h)
+
+Spring 2020
+
+- Statistics and Modeling Honors (STA-371H)
 
 Spring 2019
 
